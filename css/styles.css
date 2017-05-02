@@ -5,7 +5,7 @@
   color: orange;
 }
 .white_text {
-
+  color: #fff;
 }
 .lobster-text {
   font-family: 'Lobster', cursive;
@@ -13,7 +13,9 @@
 .railway-text {
   font-family: 'Raleway', sans-serif;
 }
-
+ h1, h2, h3, h4, h5, h6 {
+   font-weight: 700;
+ }
 
 /*--------NAVBAR----------*/
 .navbar-default {
@@ -92,6 +94,7 @@
   margin-top: 163px;
   padding: 10px 0px;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
 }
 
 #review_background h3 {
