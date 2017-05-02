@@ -4,12 +4,16 @@
 .orange-text {
   color: orange;
 }
+.white_text {
+
+}
 .lobster-text {
   font-family: 'Lobster', cursive;
 }
 .railway-text {
   font-family: 'Raleway', sans-serif;
 }
+
 
 /*--------NAVBAR----------*/
 .navbar-default {
@@ -72,4 +76,28 @@
   font-size: 80px;
   z-index: 0;
   color: rgba(0, 0, 0, 0.5);
+}
+
+/*----Review-----*/
+
+#review {
+  background-image: url('../img/food_review.jpg');
+  height: 450px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#review_background {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-top: 163px;
+  padding: 10px 0px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+#review_background h3 {
+  font-size: 50px;
+}
+
+#review_background p {
+  font-size: 22px;
 }
