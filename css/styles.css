@@ -133,6 +133,24 @@
   text-align: center;
 }
 
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, #menu_section ul li a  {
+  color: #f8512f;
+  text-transform: uppercase;
+}
+
+.nav-tabs>li.active>a:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover{
+  border: none;
+}
+
 .food_item {
   background-color: #fff;
+  padding: 20px;
 }
