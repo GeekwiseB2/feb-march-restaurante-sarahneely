@@ -1,4 +1,21 @@
 /*--------UNIVERSAL---------*/
+@import url('https://fonts.googleapis.com/css?family=Lobster|Raleway:400,700');
+
+.orange-text {
+  color: orange;
+}
+.white_text {
+  color: #fff;
+}
+.lobster-text {
+  font-family: 'Lobster', cursive;
+}
+.railway-text {
+  font-family: 'Raleway', sans-serif;
+}
+ h1, h2, h3, h4, h5, h6 {
+   font-weight: 700;
+ }
 
 /*--------NAVBAR----------*/
 .navbar-default {
@@ -26,23 +43,66 @@
   background-image: url('../img/wood-2.jpg');
   background-position: center;
   height: 450px;
+  background-size: cover;
 }
 
 #logo {
   width: 250px;
-  s
+  padding-top: ;
+  margin-left: ;
 }
 
 #seating_background {
   background-image: url('../img/restaurant-2.jpg');
   background-position: center;
   height: 450px;
+  background-size: cover;
 }
 
 #farm_background {
   background-image: url('../img/farm-2.jpg');
   background-position: center;
   height: 450px;
+  background-size: cover;
+}
+
+/*-------OUR STORY---------*/
+
+#our-story h1.lobster-text {
+  text-shadow: 1px 1px #b7b7b7;
+  font-size: 4.5em;
+}
+
+#year-text {
+  position: absolute;
+  font-size: 80px;
+  z-index: 0;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/*----Review-----*/
+
+#review {
+  background-image: url('../img/food_review.jpg');
+  height: 450px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#review_background {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-top: 163px;
+  padding: 10px 0px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+#review_background h3 {
+  font-size: 50px;
+}
+
+#review_background p {
+  font-size: 22px;
 }
 
 
